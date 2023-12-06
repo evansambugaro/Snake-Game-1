@@ -1,4 +1,4 @@
-node('Agent appserver')
+node('appserver')
 {
     def appserver
     stage('Cloning Git')
